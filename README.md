@@ -16,7 +16,8 @@
     - `pipeline build iTrust -u <admin> -p <admin>`
      - `pipeline deploy iTrust -i inventory.ini`
        - If manually providing inventory.ini file, then put it inside cm/ folder.
-    - `pipeline canary master broken`
+    - `pipeline canary master master`
+	- `pipeline canary master broken`
     
  #### NOTE: 
 - We have used ssh keys in order to provision droplet in digital ocean. So for that follow below steps before running pipeline prod up`: <br>
